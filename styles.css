@@ -125,17 +125,22 @@ li {
 	margin-left: 15%;
 }
 
-.wrap {
+.container {
 	margin-top: 50px;
+margin-left: 20%;
+	margin-bottom: 50px;
+}
+
+li{
+	color:white;
+
+}
+
+.wrap{
 	display: flex;
 	justify-content: center;
-	margin-bottom: 70px;
 }
 
-li {
-	list-style: none;
-
-}
 
 #logo {
 
@@ -148,7 +153,7 @@ li {
 
 }
 
-.forside {
+.forside  {
 	position: absolute;
 	float: left;
 	padding-top: 45px;
@@ -157,7 +162,7 @@ li {
 }
 
 
-.kontakt {
+.kontakt  {
 	position: absolute;
 	float: left;
 	padding-top: 35px;
@@ -176,13 +181,13 @@ li {
 
 
 
-.log-ud {
+.log-ud  {
 	position: absolute;
 	float: left;
 	padding-top: 43px;
 	padding-left: 25px;
 	font-size: 20px;
-	color: white;
+	text-decoration:none;
 }
 
 .profil {
@@ -207,7 +212,7 @@ li {
 .aabningstider {
 	position: absolute;
 	float: left;
-	padding-top: 42px;
+	padding-top:47px;
 	padding-left: 13px;
 	color: white;
 }
@@ -431,7 +436,8 @@ border-bottom: 52px solid transparent;
 
 .baggrund{
 	background-color:rgba(85, 168, 180, 0.3); 
-	height: 300px;
+	margin-top: 400px;
+	height: 800px;
 }
 
 /*---------------SLUT FORSIDE*/
