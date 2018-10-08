@@ -1,0 +1,24 @@
+body {
+    font-family: "Lucida Sans regular", sans-serif;
+}
+
+h1 {
+    font-family: "Lucida Sans demiboldt";
+    font-size: 23px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+p {
+    font-family: "lucida sans regular";
+    padding: auto;
+    margin-top: 0px;
+}
+
+
+#bibliotek {
+    position: center;
+    left: 50%;
+    Right: 50%;
+    width: 40%;
+}
