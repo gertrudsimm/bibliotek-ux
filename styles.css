@@ -1,0 +1,96 @@
+*{
+box-sizing: border-box;
+margin: 0;
+}
+
+/*LANDINGPAGE*/
+
+#landingpage{
+  background-image: url("images/Landingpage-gitter.png");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#lstart{
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #55a9b5;
+  border-radius: 8px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 250%;
+  margin-bottom: 2%;
+  margin-right: 10%;
+  width: 12%;
+  box-shadow: 10px 10px 80px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+#llogo{
+  position: fixed;
+  top: -2%;
+  left: 0;
+  width: 30%;
+  padding: 2%;
+  padding-top: 0;
+}
+
+/*SLIDER*/
+
+.lightSlider li {
+    text-align: center;
+    height: 80vh;
+    margin-top: 20vh;
+}
+
+.lightSlider li p{
+  font-size: 100%;
+  background: rgba(240, 179, 57, 0.8) ;
+  border-radius: 8px;
+  border: 2px solid black;
+  text-align: center;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: -3.8%;
+  z-index: 100;
+  position: relative;
+}
+
+ .active .lpic{
+  width: 65%;
+  margin-top: -20%;
+  z-index: -10;
+  transition: 0.8s linear;
+  box-shadow: 15px 15px 13px 2px rgba(0, 0, 0, 0.1);
+}
+
+.lpic{
+  width: 40%;
+  transition: 0.8s linear;
+  /*box-shadow: 15px 15px rgba(0, 0, 0, 0.1);*/
+  box-shadow: 7px 7px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+
+.ptxt{
+  margin-top: -100%;
+  transition: 0.8s linear;
+  border-radius: 1px;
+}
+
+.active .ptxt{
+  margin-top: -7%;
+  z-index: 100;
+  font-size: 70%;
+  width: 35%;
+  margin-left: 32%;
+  transition: 0.8s linear;
+}
+
+
+.active{
+  height: 250%;
+  font-size: 250%;
+
+}
