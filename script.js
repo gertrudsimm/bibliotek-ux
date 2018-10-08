@@ -1,4 +1,4 @@
-    var myDate = new Date();
+    var myDate = new Date(); /*Overkskrift til forsiden*/
     var hrs = myDate.getHours();
 
     var greet;
@@ -11,4 +11,5 @@
         greet = 'God aften';
 
   document.getElementById('lblGreetings').innerHTML =
-        '<b>' + greet + '</b> and welcome to Encodedna.com!';
+        '<b>' + greet + '</b> og velkommen til biblioteket!'; 
+/* slut Overkskrift til forsiden*/

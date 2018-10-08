@@ -1,112 +1,162 @@
-body{
-	font-family:"Lucida Sans regular", sans-serif;
+body {
+	font-family: "Lucida Sans regular", sans-serif;
 }
 
-h1{
+h1 {
 	font-family: "Lucida Sans demiboldt";
 }
-li{
+
+
+/*---------------FORSIDE*/
+
+li {
 	list-style: none;
+
+}
+
+#logo{
+
+    position:absolute;
+	right:0%;
+	top:0%;
+	width: 300px;
+	
 	
 }
 
-#darkblue{   /*menu mørkeblå knap*/
-	 float: left;
-    margin-right: -26px;
-    margin-bottom: -50px;
+.forside{
+	position: absolute;
+	float: left;
+	padding-top: 45px;
+	padding-left: 30px;
 	
-}
-#darkblue .left1 {/*menu mørkeblå knap*/
-    float: left;
-    width: 0;
-    border-right: 30px solid #4f8484;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
 	
-}
-
-#darkblue .middle1 {/*menu mørkeblå knap*/
-	  float: left;
-    width: 60px;
-    height: 104px;
-    background: #4f8484;
-
-	
-}
-
-#darkblue .right1 {/*menu mørkeblå knap*/
-	    float: left;
-    width: 0;
-    border-left: 30px solid #4f8484;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
-
 	
 }
 
 
-#gul{   /*menu gul knap*/
-	 float: left;
-    margin-right: -26px;
-    margin-bottom: -50px;
-	
-}
-.gul .left2 {/*menu gul knap*/
-    float: left;
-    width: 0;
-    border-right: 30px solid #f0b339;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
-	
+#darkblue {
+	/*menu mørkeblå knap*/
+	float: left;
+	margin-right: -26px;
+	margin-bottom: -50px;
+margin:30 %;
+
+
 }
 
-.gul .middle2 {/*menu gul knap*/
-	  float: left;
-    width: 60px;
-    height: 104px;
-    background: #f0b339;
+#darkblue .left1 {
+	/*menu mørkeblå knap*/
+	float: left;
+	width: 0;
+	border-right: 30px solid #4f8484;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
 
-	
-}
-
-.gul .right2 {/*menu gul knap*/
-	    float: left;
-    width: 0;
-    border-left: 30px solid #f0b339;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
-
-	
-}
-.hex {/*menu*/
-    float: left;
-    margin-right: -26px;
-    margin-bottom: -50px;
-}
-.hex .left {/*menu*/
-    float: left;
-    width: 0;
-    border-right: 30px solid #55a9b5;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
-}
-.hex .middle { /*menu*/
-    float: left;
-    width: 60px;
-    height: 104px;
-    background: #55a9b5;
-}
-.hex .right { /*menu*/
-    float: left;
-    width: 0;
-    border-left: 30px solid #55a9b5;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
-}
-.hex-row { /*menu*/
-    clear:left;
-}
-.hex.even { /*menu*/
-    margin-top: 53px;
 }
 
+#darkblue .middle1 {
+	/*menu mørkeblå knap*/
+	float: left;
+	width: 60px;
+	height: 104px;
+	background: #4f8484;
+
+
+}
+
+#darkblue .right1 {
+	/*menu mørkeblå knap*/
+	float: left;
+	width: 0;
+	border-left: 30px solid #4f8484;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+
+
+}
+
+
+#gul {
+	/*menu gul knap*/
+	float: left;
+	margin-right: -26px;
+	margin-bottom: -50px;
+
+}
+
+.gul .left2 {
+	/*menu gul knap*/
+	float: left;
+	width: 0;
+	border-right: 30px solid #f0b339;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+
+}
+
+.gul .middle2 {
+	/*menu gul knap*/
+	float: left;
+	width: 60px;
+	height: 104px;
+	background: #f0b339;
+
+
+}
+
+.gul .right2 {
+	/*menu gul knap*/
+	float: left;
+	width: 0;
+	border-left: 30px solid #f0b339;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+
+
+}
+
+.hex {
+	/*menu*/
+	float: left;
+	margin-right: -26px;
+	margin-bottom: -50px;
+}
+
+.hex .left {
+	/*menu*/
+	float: left;
+	width: 0;
+	border-right: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+.hex .middle {
+	/*menu*/
+	float: left;
+	width: 60px;
+	height: 104px;
+	background: #55a9b5;
+}
+
+.hex .right {
+	/*menu*/
+	float: left;
+	width: 0;
+	border-left: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+.hex-row {
+	/*menu*/
+	clear: left;
+}
+
+.hex.even {
+	/*menu*/
+	margin-top: 53px;
+}
+
+/*---------------SLUT FORSIDE*/
