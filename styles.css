@@ -1,11 +1,20 @@
-<<<<<<< HEAD
+
 body {
-	font-family: "Lucida Sans regular", sans-serif;
-=======
+	font-family: "Lucida Sans regular", sans-serif;}
+
 
 *{
 box-sizing: border-box;
 margin: 0;
+	font-family:"Lucida Sans regular", sans-serif;
+}
+
+h1{
+	font-family: "Lucida Sans demiboldt";
+}
+li{
+	list-style: none;
+
 }
 	
 	
@@ -102,10 +111,12 @@ margin: 0;
   font-size: 250%;
 
 }
-=======
+
+
+/*FORSIDE*/
+
 body{
 	font-family:"Lucida Sans regular", sans-serif;
->>>>>>> 27c31e75ed1678738c1aadb77550f0ce6be0a433
 }
 
 h1 {
@@ -120,26 +131,26 @@ li {
 
 }
 
-<<<<<<< HEAD
+
+
 #logo{
 
     position:absolute;
 	right:0%;
 	top:0%;
 	width: 300px;
-	
-	
+
+
 }
 
 .forside{
 	position: absolute;
 	float: left;
 	padding-top: 45px;
-	padding-left: 30px;
-	
-	
-	
-=======
+	padding-left: 30px;}
+
+
+
 #darkblue{   /*menu mørkeblå knap*/
 	 float: left;
     margin-right: -26px;
@@ -152,12 +163,10 @@ li {
     border-right: 30px solid #4f8484;
     border-top: 52px solid transparent;
     border-bottom: 52px solid transparent;
-
->>>>>>> 27c31e75ed1678738c1aadb77550f0ce6be0a433
 }
 
 
-<<<<<<< HEAD
+
 #darkblue {
 	/*menu mørkeblå knap*/
 	float: left;
@@ -165,8 +174,6 @@ li {
 	margin-bottom: -50px;
 margin:30 %;
 
-=======
->>>>>>> 27c31e75ed1678738c1aadb77550f0ce6be0a433
 
 }
 
@@ -177,11 +184,6 @@ margin:30 %;
 	border-right: 30px solid #4f8484;
 	border-top: 52px solid transparent;
 	border-bottom: 52px solid transparent;
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 27c31e75ed1678738c1aadb77550f0ce6be0a433
 }
 
 #darkblue .middle1 {
@@ -190,9 +192,6 @@ margin:30 %;
 	width: 60px;
 	height: 104px;
 	background: #4f8484;
-
-
-<<<<<<< HEAD
 }
 
 #darkblue .right1 {
@@ -201,34 +200,33 @@ margin:30 %;
 	width: 0;
 	border-left: 30px solid #4f8484;
 	border-top: 52px solid transparent;
-	border-bottom: 52px solid transparent;
+	border-bottom: 52px solid transparent;}
 
-=======
+
 #gul{   /*menu gul knap*/
 	 float: left;
     margin-right: -26px;
     margin-bottom: -50px;
 
 }
+
 .gul .left2 {/*menu gul knap*/
     float: left;
     width: 0;
     border-right: 30px solid #f0b339;
     border-top: 52px solid transparent;
     border-bottom: 52px solid transparent;
->>>>>>> 27c31e75ed1678738c1aadb77550f0ce6be0a433
 
 }
 
 
-<<<<<<< HEAD
+
 #gul {
 	/*menu gul knap*/
 	float: left;
 	margin-right: -26px;
 	margin-bottom: -50px;
-=======
->>>>>>> 27c31e75ed1678738c1aadb77550f0ce6be0a433
+
 
 }
 
@@ -260,11 +258,6 @@ margin:30 %;
 	border-top: 52px solid transparent;
 	border-bottom: 52px solid transparent;
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 27c31e75ed1678738c1aadb77550f0ce6be0a433
 }
 
 .hex {
@@ -309,8 +302,6 @@ margin:30 %;
 	/*menu*/
 	margin-top: 53px;
 }
-<<<<<<< HEAD
+
 
 /*---------------SLUT FORSIDE*/
-=======
->>>>>>> 27c31e75ed1678738c1aadb77550f0ce6be0a433
