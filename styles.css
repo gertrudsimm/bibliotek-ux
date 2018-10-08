@@ -17,8 +17,6 @@ li{
 
 }
 	
-	
-	
 
 /*LANDINGPAGE*/
 
@@ -131,8 +129,6 @@ li {
 
 }
 
-
-
 #logo{
 
     position:absolute;
@@ -148,6 +144,54 @@ li {
 	float: left;
 	padding-top: 45px;
 	padding-left: 30px;}
+
+
+.kontakt{
+	position: absolute;
+	float: left;
+	padding-top: 35px;
+	padding-left: 20px;}
+
+
+.opgave{
+	position: absolute;
+	float: left;
+	padding-top: 35px;
+	padding-left:15px;}
+
+
+
+.log-ud{
+	position: absolute;
+	float: left;
+	padding-top: 43px;
+	padding-left: 25px;
+	font-size: 20px;
+}
+
+.profil{
+	position:absolute;
+	float: left;
+	padding-top: 45px;
+	padding-left:6px ;
+	font-size: 15px;
+}
+
+
+.bib{
+	position: absolute;
+	float: left;
+	padding-top: 45px;
+	padding-left: 13px;
+}
+
+
+.åbningstider{
+	position: absolute;
+	float: left;
+	padding-top: 42px;
+	padding-left: 13px;
+}
 
 
 
