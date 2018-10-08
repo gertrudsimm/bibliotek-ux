@@ -2,6 +2,15 @@
 *{
 box-sizing: border-box;
 margin: 0;
+	font-family:"Lucida Sans regular", sans-serif;
+}
+
+h1{
+	font-family: "Lucida Sans demiboldt";
+}
+li{
+	list-style: none;
+
 }
 
 /*LANDINGPAGE*/
@@ -95,18 +104,8 @@ margin: 0;
   font-size: 250%;
 
 }
-=======
-body{
-	font-family:"Lucida Sans regular", sans-serif;
-}
 
-h1{
-	font-family: "Lucida Sans demiboldt";
-}
-li{
-	list-style: none;
-
-}
+/*FORSIDE*/
 
 #darkblue{   /*menu mørkeblå knap*/
 	 float: left;
