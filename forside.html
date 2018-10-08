@@ -9,103 +9,145 @@
 
 	<link rel="stylesheet" href="styles.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="slideshow/js/lightslider.js"></script>
 	<script src="script.js"></script>
+
 </head>
 
 <body>
 	<header>
 		<img src="images/logo.png" id="logo" alt="Erhvervsakademi Århus">
 		<br>
-		<label id="lblGreetings"></label>
 
-		<ul>
+		<div class="greetings">
 
-			<div class="hex-row">
+			<label id="lblGreetings"></label>
 
-				<div class="hex even">
-					<div class="left">
+		</div>
 
-					</div>
+		<div class="wrap">
+			<ul>
 
-					<div class="middle"></div>
+				<div class="hex-row">
 
-					<div class="right"></div>
-					<li class="forside">Forside<a href=""></a></li>
-				</div>
-
-
-				<div class="hex">
-
-					<div class="left"></div>
-					<div class="middle"></div>
-					<div class="right"></div>
-					<li class="kontakt">kontakt en <br> bibliotikar<a href=""></a></li>
-				</div>
-
-
-
-				<div class="hex even">
-					<div class="left"></div>
-					<div class="middle"></div>
-					<div class="right"></div>
-
-					<li class="opgave">Få hjælp til <br> din opgave<a href=""></a></li>
-				</div>
-
-			</div>
-
-
-			<div class="hex-row">
-				<div class="hex even">
-					<div class="left"></div>
-					<div class="middle"></div>
-					<div class="right"></div>
-					<li class="profil">Om biblioteket<a href=""></a></li>
-
-				</div>
-
-				<div class="hex">
-					<div id="darkblue">
-						<div class="left1"></div>
-						<div class="middle1"></div>
-						<div class="right1"></div>
-						<li class="bib">Mit bibliotek<a href=""></a></li>
-					</div>
-				</div>
-
-			</div>
-
-
-			<div class="hex-row">
-				<div class="gul">
 					<div class="hex even">
+						<div class="left">
+
+						</div>
+
+						<div class="middle"></div>
+
+						<div class="right"></div>
+						<li class="forside">Forside<a href=""></a></li>
+					</div>
 
 
-						<div class="left2"></div>
-						<div class="middle2"></div>
-						<div class="right2"></div>
-						<li class="log-ud">Log ud<a href=""></a></li>
+					<div class="hex">
+
+						<div class="left"></div>
+						<div class="middle"></div>
+						<div class="right"></div>
+						<li class="kontakt">kontakt en <br> bibliotikar<a href=""></a></li>
+					</div>
+
+
+
+					<div class="hex even">
+						<div class="left"></div>
+						<div class="middle"></div>
+						<div class="right"></div>
+
+						<li class="opgave">Få hjælp til <br> din opgave<a href=""></a></li>
+					</div>
+
+				</div>
+
+
+				<div class="hex-row">
+					<div class="hex even">
+						<div class="left"></div>
+						<div class="middle"></div>
+						<div class="right"></div>
+						<li class="profil">Om biblioteket<a href=""></a></li>
+
+					</div>
+
+					<div class="hex">
+						<div id="darkblue">
+							<div class="left1"></div>
+							<div class="middle1"></div>
+							<div class="right1"></div>
+							<li class="bib">Mit bibliotek<a href=""></a></li>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="hex-row">
+					<div class="gul">
+						<div class="hex even">
+
+
+							<div class="left2"></div>
+							<div class="middle2"></div>
+							<div class="right2"></div>
+							<li class="log-ud">Log ud<a href=""></a></li>
+
+						</div>
+
+					</div>
+
+					<div class="hex">
+
+						<div class="left"></div>
+						<div class="middle"></div>
+
+						<div class="right"></div>
+						<li class="åbningstider">Åbningstider<a href=""></a></li>
 
 					</div>
 
 				</div>
 
-				<div class="hex">
+			</ul>
+		</div>
+	</header>
 
-					<div class="left"></div>
-					<div class="middle"></div>
-
-					<div class="right"></div>
-					<li class="åbningstider">Åbningstider<a href=""></a></li>
-
-				</div>
-
+		<div class="baggrund">
+			<div class="item">
+				<ul id="content-slider" class="content-slider">
+					<li>
+						<img src="images/bog1.png" alt="Herd - Mark Earls" class="lpic">
+						<p class="ptxt">Bestil</p>
+					</li>
+					<li>
+						<img src="images/bog2.png" alt="Herd - Mark Earls" class="lpic">
+						<p class="ptxt">Bestil</p>
+					</li>
+					<li>
+						<img src="images/bog3.png" alt="Herd - Mark Earls" class="lpic">
+						<p class="ptxt">Bestil</p>
+					</li>
+					<li>
+						<img src="images/bog4.png" alt="Herd - Mark Earls" class="lpic">
+						<p class="ptxt">Bestil</p>
+					</li>
+					<li>
+						<img src="images/bog5.png" alt="Herd - Mark Earls" class="lpic">
+						<p class="ptxt">Bestil</p>
+					</li>
+					<li>
+						<img src="images/bog6.png" alt="Herd - Mark Earls" class="lpic">
+						<p class="ptxt">Bestil</p>
+					</li>
+				</ul>
 			</div>
 
-		</ul>
+		</div>
 
 
-	</header>
+
 
 
 	<script>
