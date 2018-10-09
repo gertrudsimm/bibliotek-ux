@@ -7,12 +7,8 @@ body {
 	box-sizing: border-box;
 	margin: 0;
 	font-family: "Lucida Sans regular", sans-serif;
-
-*{
-box-sizing: border-box;
-margin: 0;
-font-family:"Lucida Sans regular", sans-serif;
 }
+
 
 h1 {
 	font-family: "Lucida Sans demiboldt";
