@@ -27,8 +27,8 @@
 //DIALOGBOX
 function popOp(e) {
 // $("#dialog").innerHTML = "<h3>Sucess!</h3><p>Du har reserveret</p>" + document.getElementById(e.id).value;
-document.getElementById("dialog").innerHTML ='<h3>Sucess</h3><p>du har reserveret</p><p>'+document.getElementById(e.id).value+'</p><p>Du kan hente den mandag d. 15. oktober i receptionen</p>';
-element.classList.add("show");
+document.getElementById("dialog").innerHTML ='<h3>Sucess!</h3><p>Du har reserveret:</p><p>'+document.getElementById(e.id).value+'</p><p>Du kan hente den mandag d. 15. oktober i receptionen</p>';
+document.getElementById("dialog").classList.add("show");
 } //popOp slut
 
 
@@ -103,7 +103,7 @@ $(document).ready(function() {
             '<div class="forfat"><h4><i class="fas fa-user-circle"></i> By: ' + forfatter + '</h4></div>' + // forfatter
             // visBillede( billede ) + // skriver kun billedtag, hvis der er et billede
             '<div class="beskriv"><p>' + beskrivelse + '</p></div>' +
-            '<div class="knap mere"><button id="ora" onclick="popOp(this)" value="' + titel + '">Bestil</button> </div>' +
+            '<div class="knap mere"><button id="'+ forfatter +'" class="ora" onclick="popOp(this)" value="' + titel + '">Bestil</button> </div>' +
             '<div class="knap reserver"><button id="blaa" onclick="myFunction()">Læs mere</button> </div>' + '<div class="fyld"></div>' + // beskrivelse
             '</div>' // bogkasse slut
           );
@@ -158,7 +158,7 @@ $(document).ready(function() {
                 '<div class="forfat"><h4><i class="fas fa-user-circle"></i> By: ' + forfatter + '</h4></div>' + // forfatter
                 // visBillede( billede ) + // skriver kun billedtag, hvis der er et billede
                 '<div class="beskriv"><p>' + beskrivelse + '</p></div>' +
-                '<div class="knap mere"><button id="ora" onclick="popOp(this)" value="' + titel + '">Bestil</button> </div>' +
+                '<div class="knap mere"><button id="'+ forfatter +'" class="ora" onclick="popOp(this)" value="' + titel + '">Bestil</button> </div>' +
                 '<div class="knap reserver"><button id="blaa" onclick="myFunction()">Læs mere</button> </div>' + '<div class="fyld"></div>' + // beskrivelse
                 '</div>' // bogkasse slut
               );
