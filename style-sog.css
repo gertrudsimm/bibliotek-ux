@@ -1,0 +1,192 @@
+/*SOEG-SIDE*/
+
+.indhold {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  grid-gap: .5rem;
+  grid-row-gap: .5rem;
+  width: 55%;
+  margin-left: 20%;
+  margin-top: 10vh;
+}
+
+a {
+grid-area: bil;
+width: 15vw;
+}
+
+.bog img{
+  width: 15vw;
+}
+
+.center{
+    grid-area: bil;
+}
+
+h4, h3, p{
+margin: 0;
+margin-top: 7%;
+text-align: left;
+width: 35vw;
+}
+
+.fokus{
+  position: fixed;
+  top: 1vh;
+  left: 2vw;
+  width: 12vw;
+  opacity: 0;
+}
+
+.show{
+  opacity: 1;
+}
+
+
+
+.tit{
+  grid-area: text1;
+}
+
+.forfat{
+  grid-area: text2;
+}
+
+.beskriv{
+  grid-area: text3;
+}
+
+.mere{
+  grid-area: knap1;
+}
+
+.reserver{
+  grid-area: knap2;
+}
+
+#blaa{
+    background-color: #55A9B5;
+}
+
+#ora{
+  background-color: #F0B339;
+}
+
+button{
+width: 100px;
+font-family: 'Lucida Sans Regular', sans-serif;
+border-radius: 25px;
+height: 120%;
+
+}
+
+#dialog{
+  position: fixed;
+  top: 30%;
+  width: 29vw;
+  left: 33vw;
+  z-index: 1000;
+  background-color: #fff;
+  padding: 1%;
+  border: 4px dotted #55A9B5;
+  border-radius: 25px;
+}
+
+#dialog h3{
+  margin: 0;
+  text-align: center;
+  width: 28vw;
+}
+
+#dialog p{
+  text-align: center;
+}
+
+.knap{
+  margin-top: 10%;
+  height: 22px;
+  width: 100%;
+  margin-right: 50px;
+}
+
+.fyld{
+  grid-area: mer;
+  width: 12vw;
+}
+
+.bog {
+  display: grid;
+  grid: 'bil bil text1 text1 text1'
+        'bil bil text2 text2 text2'
+        'bil bil text3 text3 text3'
+        'bil bil . . .'
+        'bil bil . . . '
+        'mer knap1 knap1 knap2 . ';
+  padding: 10px;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+
+}
+
+/* layout */
+body {
+  font-family: 'Lucida Sans Regular', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(images/natViby2_web.jpg);
+  background-size: cover;
+  /*background-color: #000;*/
+}
+
+header {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin-bottom: .5rem;
+  position: fixed;
+  top: 5vh;
+  left: 0%;
+}
+
+header .flyt{
+
+}
+
+header a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  max-width: 23rem;
+}
+
+#submit{
+  border-radius: 10px;
+  height: 5vh;
+  width: 5vw;
+  background-color: #A5A4A4;
+}
+
+#myTextBox{
+  border-radius: 25px;
+  height: 5vh;
+  width: 20vw;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
