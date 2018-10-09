@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mitbibliotek</title>
+
+    <link rel="stylesheet" href="stylemitbib.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</head>
+
+
+<body>
+
+    <header>
+        <img src="images/logo.png" id="logo" alt="Erhvervsakademi Århus">
+    </header>
+
+   
+   <div class="topnav">
+  <a class="active" href="#home">Søg</a>
+    <input type="text" placeholder="Search..">
+</div>
+   
+
+   
+   
+    <aside>
+
+        <div class="menu">
+
+            <div class="box1">
+                <div class="top"></div>
+                <div class="middle"></div>
+                <div class="bottom"></div>
+            </div>
+
+
+           <p id="afleverer"><a href="default.asp" target="_blank">Hvordan afleverer<br>jeg?</a></p>
+           
+            <p id="henter"><a href="default.asp" target="_blank">Hvordan henter<br>jeg en reserveret<br>bog?</a></p>
+            
+                <p id="reseverer"><a href="default.asp" target="_blank">Hvordan reserverer<br>jeg en bog?</a></p>
+           
+            <div class="box2">
+                <div class="top"></div>
+                <div class="middle"></div>
+                <div class="bottom"></div>
+            </div>
+
+
+            <div class="box3">
+                <div class="top"></div>
+                <div class="middle"></div>
+                <div class="bottom"></div>
+            </div>
+        </div>
+
+        <!--<div class="line"></div>-->
+
+    </aside>
+
+    <div id="bruger">
+        <img id="patrick" src="images/patrick.png">
+        <p>Patrick Jensen</p>
+        <p>Multimediedesign <br> studerende</p>
+
+    </div>
+
+
+
+
+    <h1>Udlånte bøger</h1>
+
+    <img id="bog1" src="images/bog1.png" height="50%" alt="bog">
+    <img id="bog3" src="images/bog3.png" height="50%" alt="bog">
+    
+   <button id="knap3"><a href="#" class="button">Forny udlån</a></button>
+    
+
+    <div id="ramme">
+        <p>Lånt: 4. oktober 2018</p>
+        <p>Skal afleveres 28. oktober 2018</p>
+
+    </div>
+
+    <h2>Reserverede bøger</h2> <br>
+
+    <p id=reservation>Du har ingen bøger reserveret</p> <br>
+
+    <h2>Tidligere lånt</h2>
+
+
+    <img id="bog2" src="images/bog2.png" height="50%" alt="bog">
+
+
+
+
+    <div class="knapper">
+        <button id="knap1"><a href="#" class="button">Reseverer igen</a></button>
+
+
+
+        <button id="knap2"><a href="#" class="button">Anbefal til en ven</a></button>
+    </div>
+
+
+
+    <div id="footer"></div>
+
+</body>
+    
+
+
+</html>
