@@ -541,8 +541,8 @@ width: 35vw;
 }
 
 .fokus{
-  position: fixed;
-  top: 1vh;
+  position: absolute;
+  top: 10vh;
   left: 2vw;
   width: 12vw;
   opacity: 0;

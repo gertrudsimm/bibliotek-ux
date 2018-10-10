@@ -110,6 +110,8 @@ $(window).scroll(function() {
 });
 
 
+
+
 //DIALOGBOX
 function popOp(e) {
 // $("#dialog").innerHTML = "<h3>Sucess!</h3><p>Du har reserveret</p>" + document.getElementById(e.id).value;
