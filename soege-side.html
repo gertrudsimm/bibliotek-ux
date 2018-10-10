@@ -7,13 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="script.js"></script>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	<link rel="stylesheet" href="style-sog.css">
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <link rel="stylesheet" href="side-menu.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Søg på biblioteket</title>
 </head>
 
@@ -24,69 +19,25 @@
     <br>
 
 
-      <div class="container">
-    <ul>
-  <div class="box1">
-  <div class="top1"></div>
-  <div class="middle1"></div>
-  <div class="bottom1"></div>
-  <li class="forside">Forside<a href=""></a></li>
-  </div>
+      <div class="menu">
 
-  <div class="box2">
-  <div class="top2"></div>
-  <div class="middle2"></div>
-  <div class="bottom2"></div>
-  <li class="kontakt">kontakt en <br> bibliotikar<a href=""></a></li>
-  </div>
-
-  <div class="box3">
-  <div class="top3"></div>
-  <div class="middle3"></div>
-  <div class="bottom3"></div>
-  <li class="opgave">Få hjælp til <br> din opgave<a href=""></a></li>
-
-  </div>
-
-  <div class="box4">
-  <div class="top4"></div>
-  <div class="middle4"></div>
-  <div class="bottom4"></div>
-  <li class="bib">Mit bibliotek<a href=""></a></li>
-  </div>
-
-  <div class="box5">
-  <div class="top5"></div>
-  <div class="middle5"></div>
-  <div class="bottom5"></div>
-
-    <li class="profil">Om biblioteket<a href=""></a></li>
-
-  </div>
-
-  <div class="box6">
-  <div class="top6"></div>
-  <div class="middle6"></div>
-  <div class="bottom6"></div>
-  <li class="aabningstider">Åbningstider<a href=""></a></li>
-  </div>
-
-  <div class="box7">
-  <div class="top7"></div>
-  <div class="middle7"></div>
-  <div class="bottom7"></div>
-    <li class="log-ud">Log ud<a href=""></a></li>
-  </div>
-
-  </ul>
-
-
-  </div>
+        <nav>
+          <div id="nav1" class="punkt" onclick="location.href='forside.html';"><p>Forside</p></div>
+         <div id="nav2" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Kontakt en <br> bibliotikar</p></div>
+          <div id="nav3" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Få hjælp til <br> din opgave</p></div>
+          <div id="nav4" class="punkt" onclick="location.href='mitbib.html';"><p>Mit bibliotek</p></div>
+          <div id="nav5" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Om biblioteket</p></div>
+          <div id="nav6" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Ågningstider</p></div>
+          <div id="nav7" class="punkt" onclick="location.href='index.html';"><p>Log ud</p></div>
+        </nav>
+      </div>
 
   <div class="vl"></div>
+
+
     <!-- form -->
-    <input id="myTextBox" type="text">
-    <input id="submit" type="submit" value="Søg">
+    <input class="soge" id="myTextBox" type="text">
+    <input class="soge2" id="submit" type="submit" value="Søg">
   </header>
 
   <!-- søgeresultater -->
@@ -99,6 +50,8 @@
 
   <div id="dialog" title="Basic dialog">
 </div>
+
+    <div id="footer"></div>
 
 
 </body>

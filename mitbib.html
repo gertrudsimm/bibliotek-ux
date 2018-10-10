@@ -1,186 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mitbibliotek</title>
+    <title>Mit bibliotek</title>
+    <link rel="stylesheet" href="styles.css">
 
-    <link rel="stylesheet" href="stylemitbib.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+    <link rel="stylesheet" href="slideshow/css/lightslider.css"/>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="slideshow/js/lightslider.js"></script>
     <script src="script.js"></script>
 
 </head>
 
-
 <body>
+   <header>
+     <img src="images/logo.png" id="logo" alt="Erhvervsakademi Århus">
+     <br>
 
-    <header>
-        <img src="images/logo.png" id="logo" alt="Erhvervsakademi Århus">
 
-        	
-			<div class="container">
-		<ul>
-<div class="box1">
-<div class="top1"></div>
-<div class="middle1"></div>
-<div class="bottom1"></div>
-  <li class="forside">Forside<a href=""></a></li>
-  </div>
+       <div class="menu">
 
-<div class="box2">
-<div class="top2"></div>
-<div class="middle2"></div>
-<div class="bottom2"></div>
-  <li class="kontakt">kontakt en <br> bibliotikar<a href=""></a></li>
-  </div>
+         <nav>
+           <div id="nav1" class="punkt" onclick="location.href='forside.html';"><p>Forside</p></div>
+          <div id="nav2" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Kontakt en <br> bibliotikar</p></div>
+           <div id="nav3" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Få hjælp til <br> din opgave</p></div>
+           <div id="nav4" class="punkt denne" onclick="location.href='mitbib.html';"><p>Mit bibliotek</p></div>
+           <div id="nav5" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Om biblioteket</p></div>
+           <div id="nav6" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Ågningstider</p></div>
+           <div id="nav7" class="punkt" onclick="location.href='index.html';"><p>Log ud</p></div>
+         </nav>
+       </div>
 
-<div class="box3">
-<div class="top3"></div>
-<div class="middle3"></div>
-<div class="bottom3"></div>
-  <li class="opgave">Få hjælp til <br> din opgave<a href=""></a></li>
-  
-  </div>
+   <div class="vl"></div>
 
-<div class="box4">
-<div class="top4"></div>
-<div class="middle4"></div>
-<div class="bottom4"></div>
-<li class="bib">Mit bibliotek<a href=""></a></li>
-  </div>
-
-<div class="box5">
-<div class="top5"></div>
-<div class="middle5"></div>
-<div class="bottom5"></div>
-    
-  	<li class="profil">Om biblioteket<a href=""></a></li>
-  	
-  </div>
-
-<div class="box6">
-<div class="top6"></div>
-<div class="middle6"></div>
-<div class="bottom6"></div>
- <li class="aabningstider">Åbningstider<a href=""></a></li>
-  </div>
-
-<div class="box7">
-<div class="top7"></div>
-<div class="middle7"></div>
-<div class="bottom7"></div>
-  	<li class="log-ud">Log ud<a href=""></a></li>
-  </div>
-  
-  </ul>
- 
-
-</div>
-
-<div class="vl"></div>
-	
-
+   <input class="soge" type="text">
+   <input class="soge2" onclick="window.location.href='soege-side.html'" type="submit" value="Søg">
 </header>
-    
 
-   
-   
+<section id="profil">
+  <h1>Udlånte bøger</h1>
 
-   
-   
-    <aside>
-
-        <div class="menu">
-
-            <div class="box1">
-                <div class="top"></div>
-                <div class="middle"></div>
-                <div class="bottom"></div>
-            </div>
+   <article class="boeger">
+    <p id="bog1info">Lånt: 4. oktober 2018 <br>Skal afleveres 28. oktober 2018</p>
+  <img id="bog1" src="images/bog1.png" height="50%" alt="bog">
+  </article>
 
 
-           <p id="afleverer"><a href="default.asp" target="_blank">Hvordan afleverer<br>jeg?</a></p>
-           
-            <p id="henter"><a href="default.asp" target="_blank">Hvordan henter<br>jeg en reserveret<br>bog?</a></p>
-            
-                <p id="reseverer"><a href="default.asp" target="_blank">Hvordan reserverer<br>jeg en bog?</a></p>
-           
-            <div class="box2">
-                <div class="top"></div>
-                <div class="middle"></div>
-                <div class="bottom"></div>
-            </div>
+  <p id="bog2info">Lånt: 4. oktober 2018 <br>Skal afleveres 28. oktober 2018</p>
+  <img id="bog3" src="images/bog3.png" height="50%" alt="bog">
+
+ <button id="knap3"><a href="#" class="button">Forny udlån</a></button>
+
+  <h2>Reserverede bøger</h2> <br>
+
+  <p id=reservation>Du har ingen bøger reserveret</p> <br>
+
+  <h2>Tidligere lånt</h2>
 
 
-            <div class="box3">
-                <div class="top"></div>
-                <div class="middle"></div>
-                <div class="bottom"></div>
-            </div>
-        </div>
+  <img id="bog2" src="images/bog2.png" height="50%" alt="bog">
 
-        <!--<div class="line"></div>-->
 
-    </aside>
 
+
+  <div class="knapper">
+      <button id="knap1"><a href="#" class="button">Reseverer igen</a></button>
+
+
+
+      <button id="knap2"><a href="#" class="button">Anbefal til en ven</a></button>
+  </div>
+
+</section>
+
+
+  <aside>
     <div id="bruger">
         <img id="patrick" src="images/patrick.png">
         <p>Patrick Jensen</p>
         <p>Multimediedesign <br> studerende</p>
 
     </div>
+  </aside>
 
-
-    <h1>Udlånte bøger</h1>
-    
-     <article class="boeger">
-      <p id="bog1info">Lånt: 4. oktober 2018 <br>Skal afleveres 28. oktober 2018</p>
-    <img id="bog1" src="images/bog1.png" height="50%" alt="bog">
-    </article>
-       
-       
-    <p id="bog2info">Lånt: 4. oktober 2018 <br>Skal afleveres 28. oktober 2018</p>
-    <img id="bog3" src="images/bog3.png" height="50%" alt="bog">
-    
-   <button id="knap3"><a href="#" class="button">Forny udlån</a></button>
-    
-
-    <div id="ramme">
-        <p>Lånt: 4. oktober 2018</p>
-        <p>Skal afleveres 28. oktober 2018</p>
-
-    </div>
-
-    <h2>Reserverede bøger</h2> <br>
-
-    <p id=reservation>Du har ingen bøger reserveret</p> <br>
-
-    <h2>Tidligere lånt</h2>
-
-
-    <img id="bog2" src="images/bog2.png" height="50%" alt="bog">
-
-
-
-
-    <div class="knapper">
-        <button id="knap1"><a href="#" class="button">Reseverer igen</a></button>
-
-
-
-        <button id="knap2"><a href="#" class="button">Anbefal til en ven</a></button>
-    </div>
-
-
-
-    <div id="footer"></div>
+      <div id="footer"></div>
 
 </body>
-    
-
 
 </html>

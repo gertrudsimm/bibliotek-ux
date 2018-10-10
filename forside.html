@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+	<title>Eaaa bibliotek</title>
 
 	<link rel="stylesheet" href="styles.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -24,123 +24,26 @@
 
 		<label id="lblGreetings"></label>
 <div class="wrap"></div>
+<div class="menu">
 
-		<ul>
+	<nav>
+		<div id="nav1" class="punkt denne" onclick="location.href='forside.html';"><p>Forside</p></div>
+	 <div id="nav2" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Kontakt en <br> bibliotikar</p></div>
+		<div id="nav3" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Få hjælp til <br> din opgave</p></div>
+		<div id="nav4" class="punkt" onclick="location.href='mitbib.html';"><p>Mit bibliotek</p></div>
+		<div id="nav5" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Om biblioteket</p></div>
+		<div id="nav6" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Ågningstider</p></div>
+		<div id="nav7" class="punkt" onclick="location.href='index.html';"><p>Log ud</p></div>
+	</nav>
+</div>
 
-
-			<div class="box1">
-				<div class="top1"></div>
-				<div class="middle1"></div>
-				<div class="bottom1"></div>
-				<li class="forside"><a href="">Forside</a></li>
-			</div>
-
-			<div class="box2">
-				<div class="top2"></div>
-				<div class="middle2"></div>
-				<div class="bottom2"></div>
-				<li class="kontakt"><a href="">kontakt en <br> bibliotikar</a></li>
-			</div>
-
-			<div class="box3">
-				<div class="top3"></div>
-				<div class="middle3"></div>
-				<div class="bottom3"></div>
-				<li class="opgave"><a href="">Få hjælp til <br> din opgave</a></li>
-
-			</div>
-
-			<div class="box4">
-				<div class="top4"></div>
-				<div class="middle4"></div>
-				<div class="bottom4"></div>
-				<li class="bib"><a href=""></a>Mit bibliotek</li>
-			</div>
-
-			<div class="box5">
-				<div class="top5"></div>
-				<div class="middle5"></div>
-				<div class="bottom5"></div>
-
-				<li class="profil"><a href=""></a>Om biblioteket</li>
-
-			</div>
-
-			<div class="box6">
-				<div class="top6"></div>
-				<div class="middle6"></div>
-				<div class="bottom6"></div>
-				<li class="aabningstider"><a href=""></a>Åbningstider</li>
-			</div>
-
-			<div class="box7">
-				<div class="top7"></div>
-				<div class="middle7"></div>
-				<div class="bottom7"></div>
-				<li class="log-ud"><a href=""></a>Log ud</li>
-			</div>
-
-
-		</ul>
-
+<input class="soge" type="text">
+<input class="soge2"onclick="window.location.href='soege-side.html'" type="submit" value="Søg">
+<div class="vl"></div>
 
 
 	</header>
-
-	<div class="baggrund">
-		<div class="item">
-			<ul id="content-slider" class="content-slider">
-				<li>
-					<img src="images/bog1.png" alt="Herd - Mark Earls" class="lpic">
-					<p class="ptxt">Bestil</p>
-				</li>
-				<li>
-					<img src="images/bog2.png" alt="Herd - Mark Earls" class="lpic">
-					<p class="ptxt">Bestil</p>
-				</li>
-				<li>
-					<img src="images/bog3.png" alt="Herd - Mark Earls" class="lpic">
-					<p class="ptxt">Bestil</p>
-				</li>
-				<li>
-					<img src="images/bog4.png" alt="Herd - Mark Earls" class="lpic">
-					<p class="ptxt">Bestil</p>
-				</li>
-				<li>
-					<img src="images/bog5.png" alt="Herd - Mark Earls" class="lpic">
-					<p class="ptxt">Bestil</p>
-				</li>
-				<li>
-					<img src="images/bog6.png" alt="Herd - Mark Earls" class="lpic">
-					<p class="ptxt">Bestil</p>
-				</li>
-			</ul>
-		</div>
-
-	</div>
-
-
-
-
-
-	<script>
-		var myDate = new Date(); /*Overkskrift til forsiden*/
-		var hrs = myDate.getHours();
-
-		var greet;
-
-		if (hrs < 12)
-			greet = 'God morgen og velkommen til biblioteket';
-		else if (hrs >= 12 && hrs <= 17)
-			greet = 'God eftermiddag og velkommen til biblioteket';
-		else if (hrs >= 17 && hrs <= 24)
-			greet = 'God aften og velkommen til biblioteket';
-
-		document.getElementById('lblGreetings').innerHTML =
-			'<b>' + greet + '</b>';
-		/* slut Overkskrift til forsiden*/
-	</script>
-
+<div id="footer"></div>
 
 
 </body>

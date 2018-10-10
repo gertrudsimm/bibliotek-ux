@@ -6,72 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Om Biblioteket</title>
+    <link rel="stylesheet" href="styles.css">
 
-    <link rel="stylesheet" href="stylestilombiblioteket.css">
+  <link rel="stylesheet" href="slideshow/css/lightslider.css"/>
+  	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="slideshow/js/lightslider.js"></script>
+  	<script src="script.js"></script>
 
 </head>
 
 <body>
    <header>
      <img src="images/logo.png" id="logo" alt="Erhvervsakademi Århus">
+     <br>
 
-    <div class="container">
-        <ul>
-            <div class="box1">
-                <div class="top1"></div>
-                <div class="middle1"></div>
-                <div class="bottom1"></div>
-                <li class="forside">Forside<a href=""></a></li>
-            </div>
 
-            <div class="box2">
-                <div class="top2"></div>
-                <div class="middle2"></div>
-                <div class="bottom2"></div>
-                <li class="kontakt">kontakt en <br> bibliotikar<a href=""></a></li>
-            </div>
+       <div class="menu">
 
-            <div class="box3">
-                <div class="top3"></div>
-                <div class="middle3"></div>
-                <div class="bottom3"></div>
-                <li class="opgave">Få hjælp til <br> din opgave<a href=""></a></li>
-            </div>
+         <nav>
+           <div id="nav1" class="punkt" onclick="location.href='forside.html';"><p>Forside</p></div>
+          <div id="nav2" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Kontakt en <br> bibliotikar</p></div>
+           <div id="nav3" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Få hjælp til <br> din opgave</p></div>
+           <div id="nav4" class="punkt" onclick="location.href='mitbib.html';"><p>Mit bibliotek</p></div>
+           <div id="nav5" class="punkt denne" onclick="location.href='ombiblioteket.html';"><p>Om biblioteket</p></div>
+           <div id="nav6" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Ågningstider</p></div>
+           <div id="nav7" class="punkt" onclick="location.href='index.html';"><p>Log ud</p></div>
+         </nav>
+       </div>
 
-            <div class="box4">
-                <div class="top4"></div>
-                <div class="middle4"></div>
-                <div class="bottom4"></div>
-                <li class="bib">Mit bibliotek<a href=""></a></li>
-            </div>
+   <div class="vl"></div>
 
-            <div class="box5">
-                <div class="top5"></div>
-                <div class="middle5"></div>
-                <div class="bottom5"></div>
-
-                <li class="profil">Om biblioteket<a href=""></a></li>
-            </div>
-
-            <div class="box6">
-                <div class="top6"></div>
-                <div class="middle6"></div>
-                <div class="bottom6"></div>
-                <li class="aabningstider">Åbningstider<a href=""></a></li>
-            </div>
-
-            <div class="box7">
-                <div class="top7"></div>
-                <div class="middle7"></div>
-                <div class="bottom7"></div>
-                <li class="log-ud">Log ud<a href=""></a></li>
-            </div>
-
-        </ul>
-
-    </div>
-
-    <div class="vl"></div>
+   <input class="soge" type="text">
+   <input class="soge2" onclick="window.location.href='soege-side.html'" type="submit" value="Søg">
 </header>
 
     <section>
@@ -96,6 +62,8 @@
     </section>
 
     <img src="images/eaaa-bibliotek.jpg" id="bibliotek" alt="billede af bibliotek">
+
+        <div id="footer"></div>
 
 </body>
 

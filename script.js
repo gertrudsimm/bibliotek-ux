@@ -22,7 +22,93 @@
        });
 });
 
-//SOGE-SIDE
+//Forside
+
+$(document).ready(function() {
+  var myDate = new Date(); /*Overkskrift til forsiden*/
+  var hrs = myDate.getHours();
+
+  var greet;
+
+  if (hrs < 12)
+    greet = 'God morgen <br> og velkommen til biblioteket';
+  else if (hrs >= 12 && hrs <= 17)
+    greet = 'God eftermiddag <br> og velkommen til biblioteket';
+  else if (hrs >= 17 && hrs <= 24)
+    greet = 'God aften <br> og velkommen til biblioteket';
+
+  document.getElementById('lblGreetings').innerHTML =
+    '<b>' + greet + '</b>';
+});
+
+
+/* slut Overkskrift til forsiden*/
+
+//menu START
+
+$(window).scroll(function() {
+   if ($(this).scrollTop() > 100){
+      $('#nav1').attr("id", "flyt1");
+   }
+});
+
+$(window).scroll(function() {
+   if ($(this).scrollTop() > 100){
+      $('#nav2').attr("id", "flyt2");
+   }
+});
+
+$(window).scroll(function() {
+   if ($(this).scrollTop() > 100){
+      $('#nav3').attr("id", "flyt3");
+   }
+});
+
+$(window).scroll(function() {
+   if ($(this).scrollTop() > 100){
+      $('#nav4').attr("id", "flyt4");
+   }
+});
+
+$(window).scroll(function() {
+   if ($(this).scrollTop() > 100){
+      $('#nav5').attr("id", "flyt5");
+   }
+});
+
+$(window).scroll(function() {
+   if ($(this).scrollTop() > 100){
+      $('#nav6').attr("id", "flyt6");
+   }
+});
+
+$(window).scroll(function() {
+   if ($(this).scrollTop() > 100){
+      $('#nav7').attr("id", "flyt7");
+   }
+});
+
+
+//menu SLUT
+
+//Søgebar
+
+$(window).scroll(function() {
+   if ($(this).scrollTop() > 250){
+      $('.soge').addClass("fixed");
+   } else {
+      $('.soge').removeClass("fixed");
+   }
+});
+
+$(window).scroll(function() {
+   if ($(this).scrollTop() > 250){
+      $('.soge2').addClass("fixed2");
+   } else {
+      $('.soge2').removeClass("fixed2");
+   }
+});
+
 
 //DIALOGBOX
 function popOp(e) {
@@ -32,6 +118,7 @@ document.getElementById("dialog").classList.add("show");
 } //popOp slut
 
 
+//SØGESIDE FUNKTIONER
 /**
  * file: xml-seek-word.html
  * formål: henter data om bøger fra EAAA Bibliotekets API
