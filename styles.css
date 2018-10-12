@@ -468,37 +468,55 @@ button:focus {
     width: 100%;
 }
 
+#bog1info, #bog2info{
+	grid-area: text1;
+}
+
 
 #bog1 {
     display: block;
     z-index: -1;
-    margin-left: 400px;
-    margin-right: auto;
-    margin-bottom: 35px;
-    width: 15%;
+    width: 70%;
+		grid-area: bil;
 
 }
 
 #bog2 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
+    width: 30%;
+	grid-area: bil;
 }
 
 
 #bog3 {
     display: block;
     z-index: -1;
-    margin-left: 400px;
-    margin-right: auto;
-    margin-bottom: 35px;
-    width: 15%;
+    width: 70%;
+		grid-area: bil;
+}
+
+#knap1, #knap2, #knap3{
+background-color:  #F0B339;
+margin-bottom: 10%;
+height: auto;
+}
+
+button a{
+	color: black;
 }
 
 
 a:hover {
     color: black;
+}
+
+.boeger {
+  display: grid;
+  grid: 'bil  text1 text1 text1';
+height: 200px;
+width: 70%;
+margin-top: 5%;
+margin-bottom: 5%;
 }
 
 /*---------------SLUT profil*/

@@ -125,6 +125,7 @@ document.getElementById("dialog").classList.add("show");
  * file: xml-seek-word.html
  * formål: henter data om bøger fra EAAA Bibliotekets API
  **/
+
 $(document).ready(function() {
 
   // get user input
@@ -134,6 +135,7 @@ $(document).ready(function() {
     wrd = 'https://eaaa.reindex.net/EAAA/main/Api.php?Focus=rsshitlist&qe='
     wrd += encodeURIComponent($(this).val()) // uri encoder søgestrengen
     wrd += '&pagesize=500&page=1&format=rss';
+
 
     //let link = $('#test'); // viser uri til APIen som link i browseren
     //link.html('<a href="' + wrd + '">' + wrd + '</a>');
